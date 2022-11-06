@@ -200,22 +200,239 @@
         "name": "uva.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/menino/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\menino\\1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/menino/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\menino\\2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/menino/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\menino\\3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/menino/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\menino\\4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/menino/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\menino\\5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/menino/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\menino\\6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/fundos/fundoentardecer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\fundos\\fundoentardecer.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/comidas/saudaveis/banana.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\comidas\\saudaveis\\banana.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/comidas/saudaveis/brocolis.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\comidas\\saudaveis\\brocolis.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/comidas/saudaveis/cenoura.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\comidas\\saudaveis\\cenoura.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/comidas/saudaveis/espinafre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\comidas\\saudaveis\\espinafre.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/comidas/saudaveis/maca.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\comidas\\saudaveis\\maca.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/comidas/saudaveis/tomate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\comidas\\saudaveis\\tomate.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/comidas/saudaveis/uva.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\comidas\\saudaveis\\uva.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/comidas/naosaudaveis/batata.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\comidas\\naosaudaveis\\batata.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/comidas/naosaudaveis/bolo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\comidas\\naosaudaveis\\bolo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/comidas/naosaudaveis/cachorroquente.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\comidas\\naosaudaveis\\cachorroquente.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/comidas/naosaudaveis/cupcake.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\comidas\\naosaudaveis\\cupcake.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/comidas/naosaudaveis/hamburguer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\comidas\\naosaudaveis\\hamburguer.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/comidas/naosaudaveis/pizza.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\comidas\\naosaudaveis\\pizza.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/comidas/naosaudaveis/sorvete.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\comidas\\naosaudaveis\\sorvete.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "velocidadeComida",
+      "type": "number",
+      "value": 7
+    },
+    {
+      "folded": true,
+      "name": "maxEsperaSaudavel",
+      "type": "number",
+      "value": 10
+    },
+    {
+      "folded": true,
+      "name": "minEsperaSaudavel",
+      "type": "number",
+      "value": 0.5
+    },
+    {
+      "folded": true,
+      "name": "maxEsperaCalorica",
+      "type": "number",
+      "value": 10
+    },
+    {
+      "folded": true,
+      "name": "minEsperaCalorica",
+      "type": "number",
+      "value": 2
+    }
+  ],
   "layouts": [
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
       "mangledName": "jogo",
       "name": "jogo",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -231,7 +448,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5300000000000001,
+        "zoomFactor": 0.39,
         "windowMask": false
       },
       "objectsGroups": [
@@ -280,8 +497,23 @@
           "name": "saudaveis",
           "persistentUuid": "7c263ddf-379d-445b-a4de-e5aff2f3496c",
           "width": 0,
-          "x": 634,
-          "y": -99,
+          "x": 778,
+          "y": -109,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "caloricas",
+          "persistentUuid": "ca64d3ee-589c-469b-b067-016d1e98059a",
+          "width": 0,
+          "x": 883,
+          "y": -113,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -322,7 +554,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Image13.png",
+                      "image": "imagens\\menino\\1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -362,7 +594,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Image14.png",
+                      "image": "imagens\\menino\\3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -402,7 +634,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Image15.png",
+                      "image": "imagens\\menino\\2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -442,7 +674,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Image16.png",
+                      "image": "imagens\\menino\\4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -482,7 +714,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Image17.png",
+                      "image": "imagens\\menino\\5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -546,7 +778,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "fundoEntardecer.png",
+                      "image": "imagens\\fundos\\fundoentardecer.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -573,33 +805,16 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
+          "variables": [
             {
-              "name": "Physics2",
-              "type": "Physics2::Physics2Behavior",
-              "bodyType": "Dynamic",
-              "bullet": false,
-              "fixedRotation": false,
-              "canSleep": true,
-              "shape": "Box",
-              "shapeDimensionA": 0,
-              "shapeDimensionB": 0,
-              "shapeOffsetX": 0,
-              "shapeOffsetY": 0,
-              "polygonOrigin": "Center",
-              "vertices": [],
-              "density": 1,
-              "friction": 0.3,
-              "restitution": 0.1,
-              "linearDamping": 0.1,
-              "angularDamping": 0.1,
-              "gravityScale": 1,
-              "layers": 1,
-              "masks": 1
+              "folded": true,
+              "name": "velocidade",
+              "type": "number",
+              "value": 10
             }
           ],
+          "effects": [],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -611,7 +826,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "icons8-apple-96.png",
+                      "image": "imagens\\comidas\\saudaveis\\banana.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -628,7 +843,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "icons8-broccoli-96.png",
+                      "image": "imagens\\comidas\\saudaveis\\brocolis.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -645,7 +860,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "icons8-carrot-96.png",
+                      "image": "imagens\\comidas\\saudaveis\\cenoura.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -662,7 +877,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "icons8-spinach-96.png",
+                      "image": "imagens\\comidas\\saudaveis\\espinafre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -679,7 +894,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "icons8-sweet-banana-96.png",
+                      "image": "imagens\\comidas\\saudaveis\\maca.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -696,7 +911,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "icons8-tomato-96.png",
+                      "image": "imagens\\comidas\\saudaveis\\tomate.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -713,7 +928,150 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "uva.png",
+                      "image": "imagens\\comidas\\saudaveis\\uva.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "caloricas",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.000009999999747378752,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens\\comidas\\naosaudaveis\\batata.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens\\comidas\\naosaudaveis\\bolo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens\\comidas\\naosaudaveis\\cachorroquente.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens\\comidas\\naosaudaveis\\cupcake.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens\\comidas\\naosaudaveis\\hamburguer.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens\\comidas\\naosaudaveis\\pizza.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens\\comidas\\naosaudaveis\\sorvete.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -736,6 +1094,61 @@
         }
       ],
       "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Cenário",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "fundoEntardecer",
+                "\"esperaSaudaveis\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "fundoEntardecer",
+                "\"esperaCaloricas\""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Menino Animação",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -962,6 +1375,17 @@
           ]
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Comida animação",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -990,12 +1414,13 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
+                "value": "CompareObjectTimer"
               },
               "parameters": [
-                "Time(\"sec\") / 2",
-                "=",
-                "0"
+                "fundoEntardecer",
+                "\"esperaSaudaveis\"",
+                ">",
+                "RandomFloatInRange(GlobalVariable(minEsperaSaudavel), GlobalVariable(maxEsperaSaudavel))"
               ]
             }
           ],
@@ -1010,6 +1435,141 @@
                 "RandomInRange(-6, 634)",
                 "-93",
                 "\"atores\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "fundoEntardecer",
+                "\"esperaSaudaveis\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Always"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "saudaveis",
+                "+",
+                "GlobalVariable(velocidadeComida)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimStopped"
+              },
+              "parameters": [
+                "caloricas"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PauseAnimation"
+              },
+              "parameters": [
+                "caloricas"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "fundoEntardecer",
+                "\"esperaCaloricas\"",
+                ">",
+                "RandomFloatInRange(GlobalVariable(minEsperaCalorica), GlobalVariable(maxEsperaCalorica))"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "caloricas",
+                "RandomInRange(-6, 634)",
+                "-93",
+                "\"atores\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "fundoEntardecer",
+                "\"esperaCaloricas\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Always"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "caloricas",
+                "+",
+                "GlobalVariable(velocidadeComida)"
               ]
             }
           ]
@@ -1050,16 +1610,7 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": [
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "gravityX": 0,
-          "gravityY": 9.8,
-          "scaleX": 100,
-          "scaleY": 100
-        }
-      ]
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
@@ -1608,7 +2159,8 @@
             }
           ]
         }
-      ]
+      ],
+      "eventsBasedObjects": []
     }
   ],
   "externalLayouts": [],
