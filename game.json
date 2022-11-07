@@ -389,6 +389,33 @@
         "name": "imagens\\comidas\\naosaudaveis\\sorvete.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/menino/comendo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\menino\\comendo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-0.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -412,7 +439,7 @@
       "folded": true,
       "name": "minEsperaSaudavel",
       "type": "number",
-      "value": 0.5
+      "value": 1
     },
     {
       "folded": true,
@@ -424,7 +451,13 @@
       "folded": true,
       "name": "minEsperaCalorica",
       "type": "number",
-      "value": 2
+      "value": 3
+    },
+    {
+      "folded": true,
+      "name": "comendo",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -448,7 +481,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.39,
+        "zoomFactor": 0.4700000000000001,
         "windowMask": false
       },
       "objectsGroups": [
@@ -469,7 +502,7 @@
           "width": 400,
           "x": 150,
           "y": 1165,
-          "zOrder": 1,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -515,6 +548,36 @@
           "x": 883,
           "y": -113,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 121,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "758f4bbb-dfad-493e-8117-42ccd0ffbb4f",
+          "width": 129,
+          "x": 293,
+          "y": 1176,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 400,
+          "layer": "atores",
+          "name": "cabecahitbox",
+          "persistentUuid": "d7160053-13cf-410a-a6ba-d5a7c7321a62",
+          "width": 400,
+          "x": 150,
+          "y": 1165,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -574,20 +637,46 @@
                             "y": 12.283333778381348
                           },
                           {
-                            "x": 730.2659912109375,
-                            "y": 10.288071632385254
+                            "x": 662.3585205078125,
+                            "y": 105.75471496582031
                           },
                           {
-                            "x": 668.4129028320312,
-                            "y": 1031.8624267578125
+                            "x": 719.8742065429688,
+                            "y": 189.2452850341797
                           },
                           {
-                            "x": 413.019287109375,
-                            "y": 1035.8529052734375
+                            "x": 699.4653930664062,
+                            "y": 289.4339599609375
                           },
                           {
-                            "x": 452.924560546875,
-                            "y": 165.9185333251953
+                            "x": 643.8050537109375,
+                            "y": 322.8302001953125
+                          },
+                          {
+                            "x": 497.2326965332031,
+                            "y": 319.1195068359375
+                          },
+                          {
+                            "x": 452.70440673828125,
+                            "y": 179.9685516357422
+                          }
+                        ],
+                        [
+                          {
+                            "x": 432.29559326171875,
+                            "y": 16.69811248779297
+                          },
+                          {
+                            "x": 762.5471801757812,
+                            "y": 7.421383857727051
+                          },
+                          {
+                            "x": 641.94970703125,
+                            "y": 1033.4276123046875
+                          },
+                          {
+                            "x": 428.58489990234375,
+                            "y": 1038.99365234375
                           }
                         ]
                       ]
@@ -614,20 +703,46 @@
                             "y": 12.283333778381348
                           },
                           {
-                            "x": 730.2659912109375,
-                            "y": 10.288071632385254
+                            "x": 662.3585205078125,
+                            "y": 105.75471496582031
                           },
                           {
-                            "x": 668.4129028320312,
-                            "y": 1031.8624267578125
+                            "x": 719.8742065429688,
+                            "y": 189.2452850341797
                           },
                           {
-                            "x": 413.019287109375,
-                            "y": 1035.8529052734375
+                            "x": 699.4653930664062,
+                            "y": 289.4339599609375
                           },
                           {
-                            "x": 452.924560546875,
-                            "y": 165.9185333251953
+                            "x": 643.8050537109375,
+                            "y": 322.8302001953125
+                          },
+                          {
+                            "x": 497.2326965332031,
+                            "y": 319.1195068359375
+                          },
+                          {
+                            "x": 452.70440673828125,
+                            "y": 179.9685516357422
+                          }
+                        ],
+                        [
+                          {
+                            "x": 432.29559326171875,
+                            "y": 16.69811248779297
+                          },
+                          {
+                            "x": 762.5471801757812,
+                            "y": 7.421383857727051
+                          },
+                          {
+                            "x": 641.94970703125,
+                            "y": 1033.4276123046875
+                          },
+                          {
+                            "x": 428.58489990234375,
+                            "y": 1038.99365234375
                           }
                         ]
                       ]
@@ -654,20 +769,46 @@
                             "y": 12.283333778381348
                           },
                           {
-                            "x": 730.2659912109375,
-                            "y": 10.288071632385254
+                            "x": 662.3585205078125,
+                            "y": 105.75471496582031
                           },
                           {
-                            "x": 668.4129028320312,
-                            "y": 1031.8624267578125
+                            "x": 719.8742065429688,
+                            "y": 189.2452850341797
                           },
                           {
-                            "x": 413.019287109375,
-                            "y": 1035.8529052734375
+                            "x": 699.4653930664062,
+                            "y": 289.4339599609375
                           },
                           {
-                            "x": 452.924560546875,
-                            "y": 165.9185333251953
+                            "x": 643.8050537109375,
+                            "y": 322.8302001953125
+                          },
+                          {
+                            "x": 497.2326965332031,
+                            "y": 319.1195068359375
+                          },
+                          {
+                            "x": 452.70440673828125,
+                            "y": 179.9685516357422
+                          }
+                        ],
+                        [
+                          {
+                            "x": 432.29559326171875,
+                            "y": 16.69811248779297
+                          },
+                          {
+                            "x": 762.5471801757812,
+                            "y": 7.421383857727051
+                          },
+                          {
+                            "x": 641.94970703125,
+                            "y": 1033.4276123046875
+                          },
+                          {
+                            "x": 428.58489990234375,
+                            "y": 1038.99365234375
                           }
                         ]
                       ]
@@ -694,20 +835,46 @@
                             "y": 12.283333778381348
                           },
                           {
-                            "x": 730.2659912109375,
-                            "y": 10.288071632385254
+                            "x": 662.3585205078125,
+                            "y": 105.75471496582031
                           },
                           {
-                            "x": 668.4129028320312,
-                            "y": 1031.8624267578125
+                            "x": 719.8742065429688,
+                            "y": 189.2452850341797
                           },
                           {
-                            "x": 413.019287109375,
-                            "y": 1035.8529052734375
+                            "x": 699.4653930664062,
+                            "y": 289.4339599609375
                           },
                           {
-                            "x": 452.924560546875,
-                            "y": 165.9185333251953
+                            "x": 643.8050537109375,
+                            "y": 322.8302001953125
+                          },
+                          {
+                            "x": 497.2326965332031,
+                            "y": 319.1195068359375
+                          },
+                          {
+                            "x": 452.70440673828125,
+                            "y": 179.9685516357422
+                          }
+                        ],
+                        [
+                          {
+                            "x": 432.29559326171875,
+                            "y": 16.69811248779297
+                          },
+                          {
+                            "x": 762.5471801757812,
+                            "y": 7.421383857727051
+                          },
+                          {
+                            "x": 641.94970703125,
+                            "y": 1033.4276123046875
+                          },
+                          {
+                            "x": 428.58489990234375,
+                            "y": 1038.99365234375
                           }
                         ]
                       ]
@@ -734,20 +901,124 @@
                             "y": 12.283333778381348
                           },
                           {
-                            "x": 730.2659912109375,
-                            "y": 10.288071632385254
+                            "x": 662.3585205078125,
+                            "y": 105.75471496582031
                           },
                           {
-                            "x": 668.4129028320312,
-                            "y": 1031.8624267578125
+                            "x": 719.8742065429688,
+                            "y": 189.2452850341797
                           },
                           {
-                            "x": 413.019287109375,
-                            "y": 1035.8529052734375
+                            "x": 699.4653930664062,
+                            "y": 289.4339599609375
                           },
                           {
-                            "x": 452.924560546875,
-                            "y": 165.9185333251953
+                            "x": 643.8050537109375,
+                            "y": 322.8302001953125
+                          },
+                          {
+                            "x": 497.2326965332031,
+                            "y": 319.1195068359375
+                          },
+                          {
+                            "x": 452.70440673828125,
+                            "y": 179.9685516357422
+                          }
+                        ],
+                        [
+                          {
+                            "x": 432.29559326171875,
+                            "y": 16.69811248779297
+                          },
+                          {
+                            "x": 762.5471801757812,
+                            "y": 7.421383857727051
+                          },
+                          {
+                            "x": 641.94970703125,
+                            "y": 1033.4276123046875
+                          },
+                          {
+                            "x": 428.58489990234375,
+                            "y": 1038.99365234375
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "comendo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "imagens\\menino\\comendo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 538.7208251953125,
+                            "y": 12.283333778381348
+                          },
+                          {
+                            "x": 662.3585205078125,
+                            "y": 105.75471496582031
+                          },
+                          {
+                            "x": 719.8742065429688,
+                            "y": 189.2452850341797
+                          },
+                          {
+                            "x": 699.4653930664062,
+                            "y": 289.4339599609375
+                          },
+                          {
+                            "x": 643.8050537109375,
+                            "y": 322.8302001953125
+                          },
+                          {
+                            "x": 497.2326965332031,
+                            "y": 319.1195068359375
+                          },
+                          {
+                            "x": 452.70440673828125,
+                            "y": 179.9685516357422
+                          }
+                        ],
+                        [
+                          {
+                            "x": 432.29559326171875,
+                            "y": 16.69811248779297
+                          },
+                          {
+                            "x": 762.5471801757812,
+                            "y": 7.421383857727051
+                          },
+                          {
+                            "x": 641.94970703125,
+                            "y": 1033.4276123046875
+                          },
+                          {
+                            "x": 428.58489990234375,
+                            "y": 1038.99365234375
                           }
                         ]
                       ]
@@ -760,7 +1031,85 @@
         },
         {
           "assetStoreId": "",
-          "name": "fundoEntardecer",
+          "name": "cabecahitbox",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Arrastável",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "andando",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "imagens\\menino\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 538.7208251953125,
+                            "y": 12.283333778381348
+                          },
+                          {
+                            "x": 662.3585205078125,
+                            "y": 105.75471496582031
+                          },
+                          {
+                            "x": 719.8742065429688,
+                            "y": 189.2452850341797
+                          },
+                          {
+                            "x": 699.4653930664062,
+                            "y": 289.4339599609375
+                          },
+                          {
+                            "x": 643.8050537109375,
+                            "y": 322.8302001953125
+                          },
+                          {
+                            "x": 497.2326965332031,
+                            "y": 319.1195068359375
+                          },
+                          {
+                            "x": 452.70440673828125,
+                            "y": 179.9685516357422
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "caloricas",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -773,12 +1122,114 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.000009999999747378752,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imagens\\fundos\\fundoentardecer.png",
+                      "image": "imagens\\comidas\\naosaudaveis\\batata.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens\\comidas\\naosaudaveis\\bolo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens\\comidas\\naosaudaveis\\cachorroquente.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens\\comidas\\naosaudaveis\\cupcake.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens\\comidas\\naosaudaveis\\hamburguer.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens\\comidas\\naosaudaveis\\pizza.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens\\comidas\\naosaudaveis\\sorvete.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -951,7 +1402,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "caloricas",
+          "name": "fundoEntardecer",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -964,114 +1415,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "timeBetweenFrames": 0.000009999999747378752,
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "imagens\\comidas\\naosaudaveis\\batata.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "imagens\\comidas\\naosaudaveis\\bolo.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "imagens\\comidas\\naosaudaveis\\cachorroquente.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "imagens\\comidas\\naosaudaveis\\cupcake.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "imagens\\comidas\\naosaudaveis\\hamburguer.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "imagens\\comidas\\naosaudaveis\\pizza.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "imagens\\comidas\\naosaudaveis\\sorvete.png",
+                      "image": "imagens\\fundos\\fundoentardecer.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1135,6 +1484,16 @@
                 "fundoEntardecer",
                 "\"esperaCaloricas\""
               ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "cabecahitbox",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -1192,6 +1551,15 @@
             },
             {
               "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "cabecahitbox",
+                "yes"
+              ]
+            },
+            {
+              "type": {
                 "value": "ModVarObjet"
               },
               "parameters": [
@@ -1241,6 +1609,15 @@
               },
               "parameters": [
                 "menino",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "cabecahitbox",
                 "no"
               ]
             },
@@ -1375,80 +1752,6 @@
           ]
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Comida animação",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "AnimStopped"
-              },
-              "parameters": [
-                "saudaveis"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PauseAnimation"
-              },
-              "parameters": [
-                "saudaveis"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "fundoEntardecer",
-                "\"esperaSaudaveis\"",
-                ">",
-                "RandomFloatInRange(GlobalVariable(minEsperaSaudavel), GlobalVariable(maxEsperaSaudavel))"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "saudaveis",
-                "RandomInRange(-6, 634)",
-                "-93",
-                "\"atores\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "fundoEntardecer",
-                "\"esperaSaudaveis\""
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1463,12 +1766,183 @@
           "actions": [
             {
               "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "cabecahitbox",
+                "=",
+                "menino.X()"
+              ]
+            },
+            {
+              "type": {
                 "value": "MettreY"
               },
               "parameters": [
-                "saudaveis",
-                "+",
-                "GlobalVariable(velocidadeComida)"
+                "cabecahitbox",
+                "=",
+                "menino.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Comida animação",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "saudaveis",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimStopped"
+                  },
+                  "parameters": [
+                    "saudaveis"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseAnimation"
+                  },
+                  "parameters": [
+                    "saudaveis"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "fundoEntardecer",
+                    "\"esperaSaudaveis\"",
+                    ">",
+                    "RandomFloatInRange(GlobalVariable(minEsperaSaudavel), GlobalVariable(maxEsperaSaudavel))"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "saudaveis",
+                    "RandomInRange(-6, 634)",
+                    "-93",
+                    "\"atores\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "fundoEntardecer",
+                    "\"esperaSaudaveis\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Always"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "saudaveis",
+                    "+",
+                    "GlobalVariable(velocidadeComida)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "cabecahitbox",
+                    "saudaveis",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "menino",
+                    "\"comendo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "saudaveis",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "menino",
+                    "\"andando\""
+                  ]
+                }
               ]
             }
           ]
@@ -1487,89 +1961,151 @@
           "comment2": ""
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "caloricas",
+          "conditions": [],
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "inverted": true,
-                "value": "AnimStopped"
-              },
-              "parameters": [
-                "caloricas"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PauseAnimation"
-              },
-              "parameters": [
-                "caloricas"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "fundoEntardecer",
-                "\"esperaCaloricas\"",
-                ">",
-                "RandomFloatInRange(GlobalVariable(minEsperaCalorica), GlobalVariable(maxEsperaCalorica))"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "caloricas",
-                "RandomInRange(-6, 634)",
-                "-93",
-                "\"atores\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimStopped"
+                  },
+                  "parameters": [
+                    "caloricas"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseAnimation"
+                  },
+                  "parameters": [
+                    "caloricas"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "fundoEntardecer",
-                "\"esperaCaloricas\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "fundoEntardecer",
+                    "\"esperaCaloricas\"",
+                    ">",
+                    "RandomFloatInRange(GlobalVariable(minEsperaCalorica), GlobalVariable(maxEsperaCalorica))"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "caloricas",
+                    "RandomInRange(-6, 634)",
+                    "-93",
+                    "\"atores\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "fundoEntardecer",
+                    "\"esperaCaloricas\""
+                  ]
+                }
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
-              "type": {
-                "value": "BuiltinCommonInstructions::Always"
-              },
-              "parameters": [
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Always"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "caloricas",
+                    "+",
+                    "GlobalVariable(velocidadeComida)"
+                  ]
+                }
               ]
-            }
-          ],
-          "actions": [
+            },
             {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "caloricas",
-                "+",
-                "GlobalVariable(velocidadeComida)"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "cabecahitbox",
+                    "caloricas",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "menino",
+                    "\"comendo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "caloricas",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "menino",
+                    "\"andando\""
+                  ]
+                }
               ]
             }
           ]
