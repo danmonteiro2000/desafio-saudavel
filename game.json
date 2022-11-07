@@ -416,6 +416,22 @@
         "name": "NewSprite-1-0.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "fontes/Caramel Sweets.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "fontes\\Caramel Sweets.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "imagens/fundos/tudoPreto.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "imagens\\fundos\\tudoPreto.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -458,6 +474,18 @@
       "name": "comendo",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "pontos",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "calorias",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -481,7 +509,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4700000000000001,
+        "zoomFactor": 0.4298365440747227,
         "windowMask": false
       },
       "objectsGroups": [
@@ -555,13 +583,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 121,
+          "height": 212,
           "layer": "",
-          "name": "NewSprite",
+          "name": "tudoPreto",
           "persistentUuid": "758f4bbb-dfad-493e-8117-42ccd0ffbb4f",
-          "width": 129,
-          "x": 293,
-          "y": 1176,
+          "width": 733,
+          "x": -8,
+          "y": -12,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -578,6 +606,66 @@
           "x": 150,
           "y": 1165,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "ValorPontuacao",
+          "persistentUuid": "ee8c8c3e-7064-42bf-a327-3c0508fb6679",
+          "width": 0,
+          "x": 376,
+          "y": 21,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Pontuacao",
+          "persistentUuid": "d097ec5a-c24c-4cb6-ba1e-a02b54f73f82",
+          "width": 0,
+          "x": 17,
+          "y": 21,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Calorias",
+          "persistentUuid": "22c39679-eedc-4690-9468-704bf59de55d",
+          "width": 0,
+          "x": 17,
+          "y": 109,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "ValorCalorias",
+          "persistentUuid": "47db966d-3238-4fd6-8366-1c494d420db7",
+          "width": 0,
+          "x": 316,
+          "y": 109,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1440,6 +1528,131 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ValorPontuacao",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "fontes\\Caramel Sweets.ttf",
+          "characterSize": 70,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Pontuacao",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Pontuação:",
+          "font": "fontes\\Caramel Sweets.ttf",
+          "characterSize": 70,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Calorias",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Calorias:",
+          "font": "fontes\\Caramel Sweets.ttf",
+          "characterSize": 70,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ValorCalorias",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "fontes\\Caramel Sweets.ttf",
+          "characterSize": 70,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "tudoPreto",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "imagens\\fundos\\tudoPreto.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -1493,6 +1706,16 @@
                 "cabecahitbox",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "tudoPreto",
+                "=",
+                "70"
               ]
             }
           ]
@@ -1942,6 +2165,26 @@
                     "menino",
                     "\"andando\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "pontos",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "ValorPontuacao",
+                    "=",
+                    "ToString(GlobalVariable(pontos))"
+                  ]
                 }
               ]
             }
@@ -2104,6 +2347,26 @@
                   "parameters": [
                     "menino",
                     "\"andando\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "calorias",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "ValorCalorias",
+                    "=",
+                    "ToString(GlobalVariable(calorias))"
                   ]
                 }
               ]
