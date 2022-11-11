@@ -684,6 +684,36 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "minSaudavel",
+          "persistentUuid": "6654b4a0-8e4b-4292-94df-03301b2990ad",
+          "width": 0,
+          "x": 521,
+          "y": 810,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "maxSaudavel",
+          "persistentUuid": "7a69be81-8416-409e-ad92-5d4ec56e0097",
+          "width": 0,
+          "x": 521,
+          "y": 719,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1689,6 +1719,48 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "minSaudavel",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 70,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "maxSaudavel",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 70,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -1857,6 +1929,26 @@
                 "=",
                 "ToString(GlobalVariable(velocidadeComida))"
               ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "minSaudavel",
+                "=",
+                "ToString(GlobalVariable(minEsperaSaudavel))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "maxSaudavel",
+                "=",
+                "ToString(GlobalVariable(maxEsperaSaudavel))"
+              ]
             }
           ]
         },
@@ -1868,7 +1960,7 @@
                 "value": "BuiltinCommonInstructions::CompareNumbers"
               },
               "parameters": [
-                "mod(GlobalVariable(pontos), 15)",
+                "mod(GlobalVariable(pontos), 2)",
                 "=",
                 "0"
               ]
@@ -1899,6 +1991,95 @@
                 "velocidadeComida",
                 "*",
                 "1.1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "minEsperaCalorica",
+                    ">",
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "minEsperaSaudavel",
+                    ">",
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "maxEsperaCalorica",
+                    ">",
+                    "0.4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "maxEsperaSaudavel",
+                    ">",
+                    "0.4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "minEsperaCalorica",
+                    "-",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "minEsperaSaudavel",
+                    "-",
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "maxEsperaCalorica",
+                    "-",
+                    "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "maxEsperaSaudavel",
+                    "-",
+                    "4"
+                  ]
+                }
               ]
             }
           ]
